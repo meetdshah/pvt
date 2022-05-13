@@ -1,0 +1,178 @@
+body {
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+    margin: 0;
+}
+
+h1 {
+    color: black;
+    font-family: 'Sacramento', cursive;
+    font-size: 7rem;
+    margin: 0;
+}
+
+h2 {
+    color: #66BFBF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    padding: 15px;
+    padding-top: 50px;
+    margin: 0;
+}
+
+h3 {
+    color: #11999E;
+}
+
+p {
+    color: #40514E;
+    line-height: 2;
+}
+
+hr {
+    border-style: dotted none none none;
+    border-width: 8px;
+    color: GREY;
+    margin: 100px auto;
+    width: 10%;
+
+}
+
+.top-container {
+    background-color: #87CEEB;
+    position: relative;
+    padding-top: 40px;
+}
+
+.middle-container {
+    background-color: #AFEEEE;
+}
+
+.bottom-container {
+    background-color: #66bfbf;
+    padding: 50px;
+}
+
+.bottom-container p {
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    margin-top: 80px;
+    padding: 20px 0;
+}
+
+.bottom-container .copy-right {
+    padding-top: 30px;
+    margin: 0;
+}
+
+.bottom-container p .iconos {
+    color: #40514E;
+    text-decoration: none;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 200px;
+    top: 50px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 100px;
+    bottom: 500px;
+}
+
+.wind {
+    position: absolute;
+    left: 100px;
+    bottom: 0;
+    height: 300PX;
+    width: 240px;
+}
+
+.panel {
+    position: absolute;
+    right: 200px;
+    bottom: 0;
+    height: 250PX;
+    width: 240px;
+}
+
+.city {
+    height: 450px;
+    width: 400px;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 150px auto;
+    text-align: left;
+}
+
+.skill-image-1,
+.skill-image-4 {
+    float: left;
+    margin-right: 30px;
+    width: 25%;
+}
+
+.skill-image-2,
+.skill-image-3 {
+    float: right;
+    margin-left: 30px;
+    width: 25%;
+}
+
+
+.footer-link {
+    color: #40514E;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    color: #eaf6f6;
+}
+
+.intro-1 {
+    color: 	#00008B;
+    font-weight: normal;
+    margin-top: 0;
+}
+
+.intro-2 {
+    width: 50%;
+    margin: auto;
+}
+
+.contact-me p {
+    margin: 40px auto 60px;
+    width: 40%;
+}
+
+.contact-me .btn {
+    background-color: #11CDD4;
+    border-radius: 10px;
+    border: solid #337FED 0;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 15px 30px;
+    text-decoration: none;
+    text-shadow: 1 1 20 #000000;
+    margin-bottom: 100px;
+}
+
+.contact-me .btn:hover {
+    border: solid #337FED 0;
+    background: #30E3CB;
+}
+
+.contact-me .btn:active {
+    position: relative;
+    top: 1px;
+}
